@@ -35,12 +35,14 @@ chatapp/
 
 1. Clone the repository
 2. Set up the database:
+
    ```bash
    cd db
    mysql -u your_username -p < schema.sql
    ```
 
 3. Set up the backend:
+
    ```bash
    cd server
    npm install
@@ -49,6 +51,7 @@ chatapp/
    ```
 
 4. Set up the frontend:
+
    ```bash
    cd client
    npm install
@@ -72,6 +75,7 @@ PORT=5000
 ## Development Notes
 
 This project was developed as part of a technical assessment. The development process included:
+
 - Setting up the basic project structure
 - Implementing the backend API with Node.js and Express
 - Creating the frontend UI with React
