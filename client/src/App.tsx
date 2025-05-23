@@ -20,8 +20,8 @@ const theme = createTheme({
   },
 });
 
-function App() {
-  const [userId] = useState(() => {
+const App: React.FC = () => {
+  const [userId] = useState<string>(() => {
     const savedUserId = localStorage.getItem("chatUserId");
     return savedUserId || uuidv4();
   });
@@ -38,6 +38,6 @@ function App() {
       </Container>
     </ThemeProvider>
   );
-}
+};
 
 export default App;

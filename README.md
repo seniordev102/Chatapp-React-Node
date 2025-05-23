@@ -47,7 +47,7 @@ chatapp/
    cd server
    npm install
    # Create a .env file with your configuration
-   npm start
+   npm run dev
    ```
 
 4. Set up the frontend:
